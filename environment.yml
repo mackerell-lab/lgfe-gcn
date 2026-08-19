@@ -1,0 +1,17 @@
+name: LGFE-GCN
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.12
+  - pip
+  - pip:
+    - copy
+    - deepdish==0.3.7
+    - numpy==1.26.4
+    - optuna==4.3.0
+    - pandas==2.2.3
+    - scipy==1.13.1
+    - sklearn==1.5.1
+    - torch==2.8.0
+    - torch_geometric==2.6.1
