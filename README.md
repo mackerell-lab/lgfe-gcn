@@ -16,7 +16,7 @@
 * environment.yml : required Python packages and dependencies
 * specificity/ : scripts and data for specificity data sets
 * ablation/ : ablation studies including a XGBoost model and a GCN model without GFE features 
-* comparison/ : input/output files from AutoDock Vina and other two graph-based ML model runs, check README files in each subdirectories for more details
+* comparison/ : input/output files from AutoDock Vina and other two graph-based ML model runs, check README files in each subdirectory for more details
 
 
 ## Example:
