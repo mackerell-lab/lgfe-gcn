@@ -4,15 +4,19 @@
 #### "Ligand-Protein Specificity Predictions Using Physics-based Ligand Docking Scoring Features in a Graph Neural Network"
 
 ## Contents:
-* lgfe-gcn-hyper-tunning.py: hyperparameter tunning script
+* lgfe-gcn-hyper-tuning.py: hyperparameter tuning script
 * lgfe-gcn-train.py: model training script using the optimal set of hyperparameters determined using the previous script
 * test/lgfe-gcn-test.py: run the test set predictions
+* nested-cv.py: generate nested CV analysis during hyperparameter tuning
 * model.pt: trained GCN model
 * sdf/*.h5 : preprocessed training set
 * sdf/exp.csv: experimental binding data for the training set
 * test/sdf/*.h5 : preprocessed test set
 * test/sdf/test.csv : experimental binding data for the test set
 * environment.yml : required Python packages and dependencies
+* specificity/ : scripts and data for specificity data sets
+* ablation/ : ablation studies including a XGBoost model and a GCN model without GFE features 
+* comparison/ : input/output files from AutoDock Vina and other two graph-based ML model runs, check README files in each subdirectories for more details
 
 
 ## Example:
